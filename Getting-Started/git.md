@@ -1,7 +1,5 @@
 # WSU CSE's Git Crash Course: How to 'git' good
 
-~Christian Peters
-
 ## What is git?
 
 Something that is all too common with us nerds who work with computers is that we make mistakes. _A LOT_. In fact, it wouldn't be too far off to define working with software "a constant evolving problem that never goes away". However, it's because of these problems that we are able to get better, and ultimately solve them for good.
@@ -177,3 +175,5 @@ You'll mess up git your first time, your second time and your third time. It's a
 If anything arises, don't be afraid to ask for help. Google can only go so far and your co-workers would be more than happy to give you guidance on how we specifically use git and GitHub. I had to ask for a lot of help when writing this, so it's nothing to be afraid of.
 
 Other than that, happy git-ing!
+
+~ Christian Peters
