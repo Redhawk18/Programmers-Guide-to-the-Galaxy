@@ -10,7 +10,7 @@
 
 mkdir -p "$HOME/.ollama/models"
 
-singularity run --nv -B "$HOME/.ollama/models:/root/.ollama" ollama.sif &
+singularity run --fakeroot --nv -B "$HOME/.ollama/models:/root/.ollama" ollama.sif &
 sleep 15 # Give ollama a second.
 
 singularity exec --nv -B "$HOME/.ollama/models:/root/.ollama" ollama.sif ollama pull llama3
